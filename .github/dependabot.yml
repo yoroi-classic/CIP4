@@ -4,12 +4,10 @@ updates:
     directory: "/"
     schedule:
       interval: monthly
-      timezone: Etc/UTC
     open-pull-requests-limit: 5
 
   - package-ecosystem: github-actions
     directory: "/"
     schedule:
       interval: monthly
-      timezone: Etc/UTC
     open-pull-requests-limit: 2
