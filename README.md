@@ -57,3 +57,12 @@ import cip4 from '@yoroi-classic/cip4-js';
 
 const {legacyWalletChecksum, walletChecksum} = cip4.default || cip4;
 ```
+
+## Development
+
+Use Node.js 22.12.0 or newer:
+
+```sh
+npm ci
+npm run verify
+```
