@@ -1,3 +1,5 @@
+import { expect, test } from 'vitest';
+
 import { legacyWalletChecksum, walletChecksum } from '../index';
 
 test('Checksum is correctly generated', () => {
